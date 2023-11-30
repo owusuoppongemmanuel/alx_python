@@ -1,2 +1,2 @@
-import random
-number=random.randint(0,99)
+for n in range(0,98):
+    print(hex(n))
