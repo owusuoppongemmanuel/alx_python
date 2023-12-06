@@ -1,6 +1,5 @@
 def multiple_returns(sentence):
-    first_letter=" "
-    if len(sentence)>0:
-       return tuple((first_letter.append(sentence[0])))
-    else:
-        return("None")
+    length = len(sentence)
+    first_char = sentence[0] if length > 0 else "None"
+    tup = length, first_char
+    return(tup)
